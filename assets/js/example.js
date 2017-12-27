@@ -1,11 +1,6 @@
 var start; // used to initialize the app
 
-$(document).ready(function() {
-  // Load default questions if no flashcards are found in localStorage
-  if (!localStorage.flashcards || localStorage.flashcards === '[]')
-    ouicards.loadFromArray(myFlashcards);
-  initializeHandlers();
-});
+
 
 function initializeHandlers() {
   // Unbind all events, in case the user loads new flashcard questions
