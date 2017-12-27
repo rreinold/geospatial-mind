@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rreinold/geospatial-mind/issues"
   },
+  "scripts":{
+    "build":"cp ./ouicards/ouicards.js ./assets/js/ouicards.js"
+  },
   "homepage": "https://github.com/rreinold/geospatial-mind#readme"
 }
