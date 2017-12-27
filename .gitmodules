@@ -1,0 +1,3 @@
+[submodule "ouicards"]
+	path = ouicards
+	url = https://github.com/carlsednaoui/ouicards
