@@ -76,9 +76,9 @@ console.log(mapStyle)
 
 window.mapObj = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/light-v9',
-    zoom: 15,
-    pitch: 45,
-    bearing: 50,
+    zoom: 4,
+    pitch: 30,
+    bearing: 0,
     hash: true,
     container: 'map',
     center: [-97.742815,30.268069], 

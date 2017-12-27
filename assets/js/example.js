@@ -40,13 +40,14 @@ function initializeHandlers() {
       changeQuestion();
       return;
     }
-	  if(ouicards.currentBucket[0] && ouicards.currentBucket[0].location){
-		var lngLat = ouicards.currentBucket[0].location
+	  var currentCard = ouicards.currentBucket[0]
+	  if(currentCard && currentCard.location){
+		var lngLat = currentCard.location
 		console.log(lngLat) 
 		debugger;
 		window.mapObj.flyTo({
 		  center: lngLat,
-		  zoom: 9,
+		  zoom: 4,
 		  speed: 1,
 		  curve: 1,
 		  easing(t) {
