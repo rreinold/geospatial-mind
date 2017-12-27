@@ -1,0 +1,19 @@
+{
+  "name": "geospatial-mind",
+  "version": "1.0.0",
+  "description": "Web app for learning famous places and their lat/long coordinates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rreinold/geospatial-mind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rreinold/geospatial-mind/issues"
+  },
+  "homepage": "https://github.com/rreinold/geospatial-mind#readme"
+}
