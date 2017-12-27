@@ -1,12 +1,301 @@
-[
-        {
-            "question":"Where is Boston, MA?",
-            "answer":"-71,42 in United States",
-			"location":[-71.0000, 42.0000]
-        },
-		{
-            "question":"Where is Mt Fuji?",
-            "answer":"[138.727718, 35.360414] in Japan",
-			"location":[138.727718, 35.360414]
-        }
-]
+[{
+	"question": "Where is Mt Denali",
+	"answer": "-151.006984, 63.069169 in United States",
+	"location": [-151.006984, 63.069169]
+}, {
+	"question": "Where is Mont Blanc",
+	"answer": "6.8652, 45.8326 in Aosta Valley",
+	"location": [6.8652, 45.8326]
+}, {
+	"question": "Where is Grand Canyon",
+	"answer": "-112.090534, 36.042383 in Arizona",
+	"location": [-112.090534, 36.042383]
+}, {
+	"question": "Where is Eastern Island",
+	"answer": "-109.350371, -27.11734 in Polynesian Triange",
+	"location": [-109.350371, -27.11734]
+}, {
+	"question": "Where is Austin",
+	"answer": "-97.718716, 30.339456 in United States",
+	"location": [-97.718716, 30.339456]
+}, {
+	"question": "Where is Chichen Itza",
+	"answer": "-88.568693, 20.68294 in Mexico",
+	"location": [-88.568693, 20.68294]
+}, {
+	"question": "Where is Machu Picchu",
+	"answer": "-72.54522, -13.163256 in Peru",
+	"location": [-72.54522, -13.163256]
+}, {
+	"question": "Where is Aconcagua",
+	"answer": "-70.010868, -32.653179 in Argentina",
+	"location": [-70.010868, -32.653179]
+}, {
+	"question": "Where is Cristo Redemptor",
+	"answer": "-43.210477, -22.951949 in Brazil",
+	"location": [-43.210477, -22.951949]
+}, {
+	"question": "Where is Stonehenge",
+	"answer": "-1.826341, 51.178774 in England",
+	"location": [-1.826341, 51.178774]
+}, {
+	"question": "Where is Mont St Michel",
+	"answer": "-1.511226, 48.635651 in France",
+	"location": [-1.511226, 48.635651]
+}, {
+	"question": "Where is Sagrada Familia",
+	"answer": "2.174336, 41.403437 in Spain",
+	"location": [2.174336, 41.403437]
+}, {
+	"question": "Where is Eiffel Tower",
+	"answer": "2.294149, 48.85825 in France",
+	"location": [2.294149, 48.85825]
+}, {
+	"question": "Where is #REF!",
+	"answer": "7.447447, 46.947974 in Switzerland",
+	"location": [7.447447, 46.947974]
+}, {
+	"question": "Where is #REF!",
+	"answer": "8.541694, -36.84414474 in Switzerland",
+	"location": [8.541694, -36.84414474]
+}, {
+	"question": "Where is St Peters",
+	"answer": "12.453372, 41.902165 in Italy",
+	"location": [12.453372, 41.902165]
+}, {
+	"question": "Where is Colosseum",
+	"answer": "12.492196, 41.890173 in Italy",
+	"location": [12.492196, 41.890173]
+}, {
+	"question": "Where is The Little Mermaid",
+	"answer": "12.599122, 55.69286 in Denmark",
+	"location": [12.599122, 55.69286]
+}, {
+	"question": "Where is Berlin Wall",
+	"answer": "13.388931, 52.534241 in Germany",
+	"location": [13.388931, 52.534241]
+}, {
+	"question": "Where is #REF!",
+	"answer": "14.4378, 50.075538 in Czechia",
+	"location": [14.4378, 50.075538]
+}, {
+	"question": "Where is #REF!",
+	"answer": "14.505751, 46.056947 in Slovenia",
+	"location": [14.505751, 46.056947]
+}, {
+	"question": "Where is #REF!",
+	"answer": "15.981919, 45.815011 in Croatia",
+	"location": [15.981919, 45.815011]
+}, {
+	"question": "Where is #REF!",
+	"answer": "16.373819, 48.208174 in Austria",
+	"location": [16.373819, 48.208174]
+}, {
+	"question": "Where is Cape of Good Hope",
+	"answer": "18.473986, -34.356889 in South Africa",
+	"location": [18.473986, -34.356889]
+}, {
+	"question": "Where is #REF!",
+	"answer": "19.040235, 47.497912 in Hungary",
+	"location": [19.040235, 47.497912]
+}, {
+	"question": "Where is Auschwitz",
+	"answer": "19.201969, 50.027301 in Poland",
+	"location": [19.201969, 50.027301]
+}, {
+	"question": "Where is #REF!",
+	"answer": "19.259364, 42.43042 in Montenegro",
+	"location": [19.259364, 42.43042]
+}, {
+	"question": "Where is #REF!",
+	"answer": "19.818698, 41.327546 in Albania",
+	"location": [19.818698, 41.327546]
+}, {
+	"question": "Where is wieliczka salt mine",
+	"answer": "20.053783, 49.983462 in Poland",
+	"location": [20.053783, 49.983462]
+}, {
+	"question": "Where is #REF!",
+	"answer": "20.448922, 44.786568 in Serbia",
+	"location": [20.448922, 44.786568]
+}, {
+	"question": "Where is #REF!",
+	"answer": "21.012229, 52.229676 in Poland",
+	"location": [21.012229, 52.229676]
+}, {
+	"question": "Where is #REF!",
+	"answer": "23.321868, 42.697708 in Bulgaria",
+	"location": [23.321868, 42.697708]
+}, {
+	"question": "Where is parthenon",
+	"answer": "23.72562, 37.9714 in Greece",
+	"location": [23.72562, 37.9714]
+}, {
+	"question": "Where is #REF!",
+	"answer": "23.727539, 37.98381 in Greece",
+	"location": [23.727539, 37.98381]
+}, {
+	"question": "Where is Blue-domed Church",
+	"answer": "25.460628, 36.389606 in Greece",
+	"location": [25.460628, 36.389606]
+}, {
+	"question": "Where is Victoria Falls",
+	"answer": "25.861138, -17.92529 in Zambia and Zimbabwe",
+	"location": [25.861138, -17.92529]
+}, {
+	"question": "Where is #REF!",
+	"answer": "26.102538, 44.426767 in Romania",
+	"location": [26.102538, 44.426767]
+}, {
+	"question": "Where is Agia Sofia",
+	"answer": "28.980085, 41.008454 in Turkey",
+	"location": [28.980085, 41.008454]
+}, {
+	"question": "Where is #REF!",
+	"answer": "30.5234, 50.4501 in Ukraine",
+	"location": [30.5234, 50.4501]
+}, {
+	"question": "Where is Great Sphinx",
+	"answer": "31.137353, 29.975157 in Egypt",
+	"location": [31.137353, 29.975157]
+}, {
+	"question": "Where is #REF!",
+	"answer": "31.235712, 30.04442 in Egypt",
+	"location": [31.235712, 30.04442]
+}, {
+	"question": "Where is #REF!",
+	"answer": "32.859742, 39.933363 in Turkey",
+	"location": [32.859742, 39.933363]
+}, {
+	"question": "Where is #REF!",
+	"answer": "35.21371, 31.768319 in Israel",
+	"location": [35.21371, 31.768319]
+}, {
+	"question": "Where is Al Aqsa",
+	"answer": "35.235821, 31.775858 in Israel",
+	"location": [35.235821, 31.775858]
+}, {
+	"question": "Where is Petra",
+	"answer": "35.444357, 30.328394 in Jordan",
+	"location": [35.444357, 30.328394]
+}, {
+	"question": "Where is #REF!",
+	"answer": "35.501777, 33.893791 in Lebanon",
+	"location": [35.501777, 33.893791]
+}, {
+	"question": "Where is #REF!",
+	"answer": "35.928372, 31.945367 in Jordan",
+	"location": [35.928372, 31.945367]
+}, {
+	"question": "Where is Kilimanjaro",
+	"answer": "37.355627, -3.067425 in Tanzania",
+	"location": [37.355627, -3.067425]
+}, {
+	"question": "Where is Kilimanjaro",
+	"answer": "37.355637, -3.067688 in Tanzania",
+	"location": [37.355637, -3.067688]
+}, {
+	"question": "Where is #REF!",
+	"answer": "37.6173, 55.755826 in Russia",
+	"location": [37.6173, 55.755826]
+}, {
+	"question": "Where is St Basil Cathedral",
+	"answer": "37.622937, 55.752456 in Russia",
+	"location": [37.622937, 55.752456]
+}, {
+	"question": "Where is Mecca",
+	"answer": "39.858054, 21.388833 in Saudi Arabia",
+	"location": [39.858054, 21.388833]
+}, {
+	"question": "Where is Mount Elbrus",
+	"answer": "42.44533, 43.349938 in Russia",
+	"location": [42.44533, 43.349938]
+}, {
+	"question": "Where is #REF!",
+	"answer": "44.499103, 40.179186 in Armenia",
+	"location": [44.499103, 40.179186]
+}, {
+	"question": "Where is #REF!",
+	"answer": "46.675296, 24.713552 in Saudi Arabia",
+	"location": [46.675296, 24.713552]
+}, {
+	"question": "Where is #REF!",
+	"answer": "51.388974, 35.689197 in Iran",
+	"location": [51.388974, 35.689197]
+}, {
+	"question": "Where is #REF!",
+	"answer": "54.377344, 24.453884 in UAE",
+	"location": [54.377344, 24.453884]
+}, {
+	"question": "Where is The Burj",
+	"answer": "55.185294, 25.141228 in United Arab Emirates",
+	"location": [55.185294, 25.141228]
+}, {
+	"question": "Where is Taj Mahal",
+	"answer": "78.041737, 27.174767 in India",
+	"location": [78.041737, 27.174767]
+}, {
+	"question": "Where is #REF!",
+	"answer": "85.32396, 27.717245 in Nepal",
+	"location": [85.32396, 27.717245]
+}, {
+	"question": "Where is Everest",
+	"answer": "86.925026, 27.98785 in Nepal",
+	"location": [86.925026, 27.98785]
+}, {
+	"question": "Where is #REF!",
+	"answer": "103.819836, 1.352083 in Singapore",
+	"location": [103.819836, 1.352083]
+}, {
+	"question": "Where is Angkor Wat",
+	"answer": "103.86717, 13.411981 in Cambodia",
+	"location": [103.86717, 13.411981]
+}, {
+	"question": "Where is #REF!",
+	"answer": "105.83416, 21.027764 in Vietnam",
+	"location": [105.83416, 21.027764]
+}, {
+	"question": "Where is #REF!",
+	"answer": "106.905744, 47.886399 in Mongolia",
+	"location": [106.905744, 47.886399]
+}, {
+	"question": "Where is Great Wall of China",
+	"answer": "116.570064, 40.431891 in China",
+	"location": [116.570064, 40.431891]
+}, {
+	"question": "Where is #REF!",
+	"answer": "120.984219, 14.599512 in Philippines",
+	"location": [120.984219, 14.599512]
+}, {
+	"question": "Where is #REF!",
+	"answer": "125.762524, 39.039219 in North Korea",
+	"location": [125.762524, 39.039219]
+}, {
+	"question": "Where is #REF!",
+	"answer": "126.977969, 37.566535 in South Korea",
+	"location": [126.977969, 37.566535]
+}, {
+	"question": "Where is Puncak Jaya",
+	"answer": "137.186618, -4.084599 in Paua Province",
+	"location": [137.186618, -4.084599]
+}, {
+	"question": "Where is Mount Fuji",
+	"answer": "138.727718, 35.360414 in Japan",
+	"location": [138.727718, 35.360414]
+}, {
+	"question": "Where is The Great Buddha of Kamakura",
+	"answer": "139.536145, 35.316681 in Japan",
+	"location": [139.536145, 35.316681]
+}, {
+	"question": "Where is Kosciuszko",
+	"answer": "148.263599, -36.455898 in New South Wales",
+	"location": [148.263599, -36.455898]
+}, {
+	"question": "Where is Sydney Opera House",
+	"answer": "151.215136, -33.857281 in Australia",
+	"location": [151.215136, -33.857281]
+}, {
+	"question": "Where is #REF!",
+	"answer": "174.776236, -41.28646 in New Zealand",
+	"location": [174.776236, -41.28646]
+}]
