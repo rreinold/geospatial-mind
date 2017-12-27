@@ -3,5 +3,10 @@
             "question":"Where is Boston, MA?",
             "answer":"-71,42 in United States",
 			"location":[-71.0000, 42.0000]
+        },
+		{
+            "question":"Where is Mt Fuji?",
+            "answer":"[138.727718, 35.360414] in Japan",
+			"location":[138.727718, 35.360414]
         }
 ]
