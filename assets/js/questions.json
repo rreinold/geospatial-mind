@@ -1,6 +1,7 @@
 [
         {
             "question":"Where is Boston, MA?",
-            "answer":"42,-71 in United States"
+            "answer":"-71,42 in United States",
+			"location":[-71.0000, 42.0000]
         }
 ]

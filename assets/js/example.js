@@ -40,9 +40,23 @@ function initializeHandlers() {
       changeQuestion();
       return;
     }
-
+	  if(ouicards.currentBucket[0] && ouicards.currentBucket[0].location){
+		var lngLat = ouicards.currentBucket[0].location
+		console.log(lngLat) 
+		debugger;
+		window.mapObj.flyTo({
+		  center: lngLat,
+		  zoom: 9,
+		  speed: 1,
+		  curve: 1,
+		  easing(t) {
+			return t;
+		  }
+		});
+	  }
+	
     ouicards.correct();
-    changeQuestion();
+	changeQuestion();
     updateFooter();
   });
 
