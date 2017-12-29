@@ -40,21 +40,6 @@ function initializeHandlers() {
       changeQuestion();
       return;
     }
-	  var currentCard = ouicards.currentBucket[0]
-	  if(currentCard && currentCard.location){
-		var lngLat = currentCard.location
-		console.log(lngLat) 
-		debugger;
-		window.mapObj.flyTo({
-		  center: lngLat,
-		  zoom: 4,
-		  speed: 1,
-		  curve: 1,
-		  easing(t) {
-			return t;
-		  }
-		});
-	  }
 	
     ouicards.correct();
 	changeQuestion();
@@ -92,6 +77,22 @@ function initializeHandlers() {
 
   $('.answer').on('click', function() {
     $('.answer p').show();
+    var currentCard = ouicards.currentBucket[0]
+    if(currentCard && currentCard.location){
+    var lngLat = currentCard.location
+    console.log(lngLat) 
+    debugger;
+    window.mapObj.flyTo({
+      center: lngLat,
+      zoom: 5,
+      speed: 1,
+      curve: 1,
+      easing(t) {
+      return t;
+      }
+    });
+    }
+
   });
 
   // Update footer info
